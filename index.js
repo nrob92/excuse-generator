@@ -29,7 +29,7 @@ window.onload = () => {
 
 
 
- randomWhoFunc = () => {
+ const randomWhoFunc = () => {
     
     let who = ['The dog','My grandma','His turtle','My bird',];
     let randomWho = Math.floor(Math.random()* who.length);
@@ -38,13 +38,13 @@ window.onload = () => {
 
 }
 
-whoResult = () => {
+const whoResult = () => {
     document.getElementById("who").innerHTML = randomWhoFunc();
 }
 
 
 
-randomActionFunc = () => {
+const randomActionFunc = () => {
     
     let action = ['Ate','Peed','Crushed','Broke'];
     let randomAction = Math.floor(Math.random()* action.length);
@@ -54,30 +54,30 @@ randomActionFunc = () => {
 
 
 
-actionResult = () => {
+const actionResult = () => {
     document.getElementById("action").innerHTML = randomActionFunc();
 }
 
 
-randomWhatFunc = () => {
+const randomWhatFunc = () => {
     let what = ['My Homework', 'The Keys', 'The Car'];
     let randomWhat = Math.floor(Math.random()* what.length);
     return what[randomWhat]
 }
 
-whatResult = () => {
+const whatResult = () => {
 document.getElementById("what").innerHTML = randomWhatFunc()
 }
 
 
 
-randomWhenFunc = () => {
+const randomWhenFunc = () => {
     let when = ['Before The Class','Right On Time','When I Finished','During My Lunch','While I Was Praying'];
     let randomWhen = Math.floor(Math.random()* when.length);
     return when[randomWhen]
 }
 
-whenResult = () => {
+const whenResult = () => {
 document.getElementById("when").innerHTML = randomWhenFunc()
 }
 

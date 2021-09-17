@@ -9,6 +9,7 @@ font-size: 20px;
 color: rgb(241, 241, 241);
 letter-spacing: .08rem;
 
+
 }
 
 .container {
@@ -17,21 +18,21 @@ letter-spacing: .08rem;
 display: flex;
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
    
     width: 80%;
     height: 150px;
-   justify-content: space-evenly;
+   justify-content: center;
   
    
-   align-items: center;
+ 
 }
 
 .seperate{
-   width: 180px;
-
+  
+width: 180px;
 }
 
 
