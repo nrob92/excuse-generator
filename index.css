@@ -59,8 +59,14 @@ button{
     background-color: rgb(0, 105, 224);
     cursor: pointer;
     margin: 10px;
-    font-size: 20px;
+    font-size: 17px;
 }
+
+button:hover{
+    background-color: rgb(1, 79, 168);
+    
+}
+
 
 
 
